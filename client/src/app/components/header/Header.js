@@ -4,6 +4,7 @@ import { BrowserProvider } from "ethers";
 import Image from "next/image";
 import Link from "next/link";
 import { useContext } from "react";
+import { Wallet } from 'lucide-react';
 
 export default function Header() {
   const {
@@ -45,14 +46,14 @@ export default function Header() {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center font-extrabold text-3xl">
           <Link href="/">
-            Sentrail
+            Artivia
           </Link>
         </div>
         <nav>
           <ul className="flex items-center gap-6">
             <li>
               <Link href="/marketplace" className="hover:text-blue-400 transition">
-                MarketPlace
+                Marketplace
               </Link>
             </li>
             <li>
@@ -70,11 +71,15 @@ export default function Header() {
                 className={`px-4 py-2 rounded-md font-medium transition-colors ${
                   isConnected
                     ? "bg-blue-500 hover:bg-blue-600 text-white"
-                    : "bg-transparent border border-blue-400 hover:bg-blue-400 hover:text-white"
+                    : "bg-transparent border border-blue-400 hover:bg-blue-400 hover:text-white flex items-center gap-1"
                 }`}
                 onClick={connectWallet}
               >
-                {isConnected ? `${userAddress?.slice(0, 8)}...` : "Connect Wallet"}
+                {isConnected ? `${userAddress?.slice(0, 8)}...` : "Connect Wallet"
+                
+                }
+                {!isConnected && <Wallet width={17} height={17}/> }
+                
               </button>
             </li>
           </ul>

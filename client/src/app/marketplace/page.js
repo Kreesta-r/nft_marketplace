@@ -72,12 +72,12 @@ export default function Marketplace() {
                     ))}
                   </div>
                 ) : (
-                  <div className="text-lg text-gray-400">No NFTs listed at the moment...</div>
+                  <div className="text-lg text-gray-400 mb-[50vh]">No NFTs listed at the moment...</div>
                 )}
               </div>
             </>
           ) : (
-            <div className="text-lg text-gray-400">You are not connected...</div>
+            <div className="text-lg text-gray-400 mb-[50vh]">You are not connected...</div>
           )}
         </div>
       </div>

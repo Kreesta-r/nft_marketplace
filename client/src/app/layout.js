@@ -5,7 +5,7 @@ import { WalletContextProvider } from "@/context/wallet";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Sentrail",
+  title: "Artivia",
   description: "",
 };
 

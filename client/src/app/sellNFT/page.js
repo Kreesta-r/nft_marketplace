@@ -169,7 +169,7 @@ export default function SellNFT() {
         </div>
       ) : (
         <div className="container mx-auto px-4 py-12">
-          <div className="bg-gray-800 rounded-lg p-8 text-center">
+          <div className="bg-gray-800 rounded-lg p-8 text-center mb-[50vh]">
             Connect Your Wallet to Continue...
           </div>
         </div>

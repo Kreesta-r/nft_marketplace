@@ -126,7 +126,7 @@ export default function HomePage() {
       <section className="py-24">
         <div className="container mx-auto px-4">
           <div className="relative rounded-2xl overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-indigo-600" />
+            <div className="absolute inset-0 bg-gradient-to-r from-gray-800 to-gray-800" />
             <div className="relative p-12 md:p-20">
               <div className="max-w-3xl mx-auto text-center">
                 <h2 className="text-4xl font-bold mb-6">Unleash Your Digital Creativity</h2>
