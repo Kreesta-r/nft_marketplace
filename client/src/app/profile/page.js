@@ -92,7 +92,9 @@ export default function Profile() {
                     ))}
                   </div>
                 ) : (
-                  <div className="text-lg text-gray-400">You don't have any NFTs...</div>
+                  <div className="text-lg text-gray-400">
+                    <p>You do not have any NFTs...</p>
+                    </div>
                 )}
               </div>
             </>
