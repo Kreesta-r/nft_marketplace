@@ -6,7 +6,7 @@ const year = new Date().getFullYear();
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-gray-800 text-white py-8">
+    <footer className="w-full bg-gray-900 text-white py-8 outline outline-blue-200">
       <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         <p className="underline text-blue-400">
           Copyright &copy; {year} Artivia. All rights reserved!

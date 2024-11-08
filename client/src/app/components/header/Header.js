@@ -42,7 +42,7 @@ export default function Header() {
   };
 
   return (
-    <header className="bg-gray-800 text-white py-4">
+    <header className="bg-gray-900 text-white py-4">
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center font-extrabold text-3xl">
           <Link href="/">
@@ -50,7 +50,7 @@ export default function Header() {
           </Link>
         </div>
         <nav>
-          <ul className="flex items-center gap-6">
+          <ul className="flex items-center gap-6 uppercase font-bold text-xs">
             <li>
               <Link href="/marketplace" className="hover:text-blue-400 transition">
                 Marketplace

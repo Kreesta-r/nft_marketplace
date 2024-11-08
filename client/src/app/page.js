@@ -51,7 +51,7 @@ export default function HomePage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center relative">
             <div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-indigo-500">
-                Redefine Digital Ownership
+                Redefine Digital <span className="text-yellow-400">Ownership</span>
               </h1>
               <p className="text-xl text-gray-300 mb-8 leading-relaxed">
                 Unlock the future of collectibles and unleash your creativity at NFTmarket. Discover, create, and
@@ -134,7 +134,7 @@ export default function HomePage() {
                   Join the NFTmarket community and unlock a world of innovation, where your digital masterpieces
                   find their rightful place.
                 </p>
-                <Link href="/signup" 
+                <Link href="/marketplace" 
                   className="inline-flex items-center gap-2 px-8 py-4 bg-white text-gray-900 rounded-xl 
                     font-semibold hover:bg-gray-100 transition-colors">
                   Get Started
